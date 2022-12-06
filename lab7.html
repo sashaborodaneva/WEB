@@ -4,13 +4,40 @@
         <meta charset="utf-8">
         <title>Бороданева Александра. ФБИ-02. Лабораторная 4</title>
         <link rel="stylesheet" href="lab7.css" type="text/css">
+        <script src="lab7.js"></script>
     </head>
     <body>
         <div class="header">
             Бороданева Александра
         </div>
         <div class="content">
-
+            <form>
+                <div id="user-data">
+                    <div>
+                        <span id="your-name">Ваше имя</span>: 
+                        <input type="text" id="input-name" placeholder="Введите имя">
+                    </div>
+                    <div>
+                        <span id="your-surname">Ваша фамилия</span>: 
+                        <input type="text" id="input-surname" placeholder="Введите фамилию">
+                    </div>
+                    <div>
+                        <span id="your-age">Ваш возраст</span>: 
+                        <input type="text" id="input-age" placeholder="Введите возраст">
+                    </div>
+                    <div>
+                        <span>Ваш пол</span>:
+                        <select id="sex">
+                            <option value="male">мужской</option>
+                            <option value="female">женский</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="button" value="ок" id="ok-button" onclick="showAlert()">
+                        <input type="reset" value="сброс" id="reset-button">
+                    </div>
+                </div>
+            </form>
         </div>
         <div class="footer">
             Факультет Бизнеса. ФБИ-02. 2022
