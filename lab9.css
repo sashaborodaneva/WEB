@@ -25,3 +25,14 @@ body {
     left:0;
     right: 0;
 }
+#coords {
+    height: 500px;
+    width: 500px;
+    background: #191522;
+    color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px; 
+    margin: auto; 
+    font-size: 32px;
+}
