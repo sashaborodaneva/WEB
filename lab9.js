@@ -34,4 +34,7 @@ function showCoords(event) {
 window.addEventListener('DOMContentLoaded', function(){
     let coords = document.querySelector('#coords');
     coords.addEventListener('mousemove', showCoords);
-})
+});
+function showOne(tag){
+    tag.style.color = "red"
+}
